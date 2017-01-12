@@ -1,0 +1,86 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+	font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+	box-sizing: border-box; 
+}
+
+.container {
+	width: 70%;
+	max-width: 600px; 
+	margin-left: auto;
+	margin-right: auto; 
+	margin-top: -20vh;
+}
+
+header {
+	background: #1c5380;
+    height: 200px;
+}
+
+.content h1 {
+	color: #06365f; 
+	}
+
+.container img {
+    width: 40%;
+	max-width: 270px;
+}
+
+#instagram-logo {
+	width: 70%; 
+}
+
+.content {
+	background: url("../images/frame.png");
+	background-size: 100% 100%;
+	margin-top: -25px;
+	padding: 0 10px;
+}
+
+.content h1 {
+	padding-top: 10px;
+}
+
+.content p {
+	font-size: 12px;
+}
+
+.content img {
+	width: 35%; 
+}
+
+article {
+	float: right;
+    width: 58%;
+    overflow: hidden;
+}
+
+footer {
+    clear: both;
+	text-align: center; 
+}
+
+footer li {
+	list-style: none;
+    display: inline;
+    padding: 0 4px;
+    font-size: 12px;
+}
+
+footer ul, footer p {
+	display: inline-block; 
+}
+
+footer li a{
+	text-decoration: none; 
+}
+
+footer p {
+	font-size:12px; 
+}
